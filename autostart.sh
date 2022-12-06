@@ -1,6 +1,6 @@
 #!/bin/sh
 
-compton &
+picom -b &
 nm-applet &
 sudo blueman-applet &
 #anki &

@@ -162,9 +162,9 @@ keys = [
     Key([mod], "Down", dec_margins, desc="Decrease layout margins"),
     ### Switch focus to specific monitor (out of three)
     Key(
-        [mod, "shift"], "period", lazy.to_screen(0), desc="Keyboard focus to monitor 1"
+        [mod, "shift"], "period", lazy.to_screen(1), desc="Keyboard focus to monitor 1"
     ),
-    Key([mod, "shift"], "comma", lazy.to_screen(1), desc="Keyboard focus to monitor 2"),
+    Key([mod, "shift"], "comma", lazy.to_screen(0), desc="Keyboard focus to monitor 2"),
     ### Switch focus of monitors
     Key([mod], "period", lazy.to_screen(1), desc="Move focus to next monitor"),
     Key([mod], "comma", lazy.to_screen(0), desc="Move focus to prev monitor"),

@@ -193,9 +193,9 @@ keys = [
 ]
 
 groups = [Group(i) for i in "123456789"]
-# alt_dvk = [i for i in "+[{(&=)}]"]
+# alt_dvk = [i for i in "+[{(/\)}]"]
 
-alt_names = ["plus", "bracketleft", "braceleft", "parenleft", "ampersand", "equal", "parenright", "braceright", "bracketright"]
+alt_names = ["plus", "bracketleft", "braceleft", "parenleft", "slash", "backslash", "parenright", "braceright", "bracketright"]
 
 for index, i in enumerate(groups):
     keys.extend(
